@@ -40,7 +40,7 @@ export const Navbar = ({ activeSection, onSectionChange }: NavbarProps) => {
         <div className="flex items-center justify-between h-16">
           {/* Logo */}
           <div className="flex-shrink-0">
-            <img src={topdoerLogo} alt="TopDoer" className="h-16" />
+            <img src={topdoerLogo} alt="TopDoer" className="h-20" />
           </div>
 
           {/* Desktop Navigation */}
