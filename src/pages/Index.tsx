@@ -1,12 +1,44 @@
-// Update this page (the content is just a fallback if you fail to update the page)
+import { useState, useEffect } from "react";
+import { Navbar } from "@/components/Navbar";
+import { Footer } from "@/components/Footer";
+import { HeroSection } from "@/components/sections/HeroSection";
+import { ComoFuncionaSection } from "@/components/sections/ComoFuncionaSection";
+import { VantagensSection } from "@/components/sections/VantagensSection";
+import { DepoimentosSection } from "@/components/sections/DepoimentosSection";
+import { CadastroSection } from "@/components/sections/CadastroSection";
+import { EmpresasHeroSection } from "@/components/sections/EmpresasHeroSection";
+import { BeneficiosSection } from "@/components/sections/BeneficiosSection";
+import { DemoSection } from "@/components/sections/DemoSection";
 
 const Index = () => {
+  const [activeSection, setActiveSection] = useState<"prestadores" | "empresas">("prestadores");
+
+  // Scroll to top when section changes
+  useEffect(() => {
+    window.scrollTo({ top: 0, behavior: "smooth" });
+  }, [activeSection]);
+
   return (
-    <div className="flex min-h-screen items-center justify-center bg-background">
-      <div className="text-center">
-        <h1 className="mb-4 text-4xl font-bold">Welcome to Your Blank App</h1>
-        <p className="text-xl text-muted-foreground">Start building your amazing project here!</p>
-      </div>
+    <div className="min-h-screen">
+      <Navbar activeSection={activeSection} onSectionChange={setActiveSection} />
+      
+      {activeSection === "prestadores" ? (
+        <>
+          <HeroSection />
+          <ComoFuncionaSection />
+          <VantagensSection />
+          <DepoimentosSection />
+          <CadastroSection />
+        </>
+      ) : (
+        <>
+          <EmpresasHeroSection />
+          <BeneficiosSection />
+          <DemoSection />
+        </>
+      )}
+      
+      <Footer />
     </div>
   );
 };
