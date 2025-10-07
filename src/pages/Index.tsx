@@ -5,7 +5,6 @@ import { HeroSection } from "@/components/sections/HeroSection";
 import { ComoFuncionaSection } from "@/components/sections/ComoFuncionaSection";
 import { VantagensSection } from "@/components/sections/VantagensSection";
 import { DepoimentosSection } from "@/components/sections/DepoimentosSection";
-import { CadastroSection } from "@/components/sections/CadastroSection";
 import { EmpresasHeroSection } from "@/components/sections/EmpresasHeroSection";
 import { BeneficiosSection } from "@/components/sections/BeneficiosSection";
 import { DemoSection } from "@/components/sections/DemoSection";
@@ -28,7 +27,6 @@ const Index = () => {
           <ComoFuncionaSection />
           <VantagensSection />
           <DepoimentosSection />
-          <CadastroSection />
         </>
       ) : (
         <>

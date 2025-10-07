@@ -1,6 +1,7 @@
 import { useState } from "react";
 import { Menu, X } from "lucide-react";
 import { Button } from "@/components/ui/button";
+import topdoerLogo from "@/assets/topdoer-logo.png";
 
 interface NavbarProps {
   activeSection: "prestadores" | "empresas";
@@ -23,7 +24,6 @@ export const Navbar = ({ activeSection, onSectionChange }: NavbarProps) => {
     { label: "Como Funciona", id: "como-funciona" },
     { label: "Vantagens", id: "vantagens" },
     { label: "Depoimentos", id: "depoimentos" },
-    { label: "Cadastro", id: "cadastro" },
   ];
 
   const empresasLinks = [
@@ -40,9 +40,7 @@ export const Navbar = ({ activeSection, onSectionChange }: NavbarProps) => {
         <div className="flex items-center justify-between h-16">
           {/* Logo */}
           <div className="flex-shrink-0">
-            <h1 className="text-2xl font-bold bg-gradient-hero bg-clip-text text-transparent">
-              TopDoer
-            </h1>
+            <img src={topdoerLogo} alt="TopDoer" className="h-10" />
           </div>
 
           {/* Desktop Navigation */}
