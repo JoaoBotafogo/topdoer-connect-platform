@@ -4,23 +4,23 @@ import { Card } from "@/components/ui/card";
 const steps = [
   {
     icon: UserPlus,
-    title: "1. Cadastre-se",
-    description: "Crie sua conta gratuita em menos de 5 minutos. Adicione suas habilidades e experiências.",
+    title: "1. Crie seu Perfil",
+    description: "É grátis e leva só 5 minutos. Conte pra gente no que você é bom para encontrarmos os melhores trabalhos para você.",
   },
   {
     icon: Search,
     title: "2. Encontre Oportunidades",
-    description: "Navegue por diversos trabalhos disponíveis que combinam com seu perfil e localização.",
+    description: "Nós encontramos o serviço certo para você. Receba oportunidades perto de casa, selecionadas de acordo com suas habilidades. Você só precisa escolher os que se encaixam na sua rotina.",
   },
   {
     icon: Briefcase,
     title: "3. Trabalhe com Flexibilidade",
-    description: "Escolha seus horários e projetos. Trabalhe quando e onde quiser com total autonomia.",
+    description: "Aqui você é o chefe. Escolha o que quer fazer, defina seus horários e trabalhe no seu ritmo. Liberdade total para você.",
   },
   {
     icon: DollarSign,
-    title: "4. Receba seus Pagamentos",
-    description: "Pagamentos seguros e rápidos direto na sua conta. Acompanhe seus ganhos em tempo real.",
+    title: "4. Receba via PIX",
+    description: "Dinheiro na conta, sem enrolação. Pagamentos seguros e rápidos direto na sua conta, sem riscos!",
   },
 ];
 
@@ -36,7 +36,7 @@ export const ComoFuncionaSection = () => {
             Como Funciona
           </h2>
           <p className="text-lg text-muted-foreground max-w-2xl mx-auto">
-            Em apenas 4 passos você está pronto para começar a trabalhar e ganhar dinheiro
+            Em 4 passos simples, você começa a trabalhar com liberdade e recebe por isso.
           </p>
         </div>
 

@@ -5,19 +5,19 @@ const advantages = [
   {
     icon: Clock,
     title: "Flexibilidade Total",
-    description: "Escolha seus próprios horários e projetos. Trabalhe quando e como preferir, mantendo o equilíbrio perfeito entre vida pessoal e profissional.",
+    description: "Você decide os melhores turnos para a sua rotina. Perfeito para complementar sua renda ou conciliar com seu emprego fixo, sem pressão e do seu jeito.",
     color: "text-blue-500",
   },
   {
     icon: TrendingUp,
-    title: "Aumente sua Renda",
-    description: "Ganhe mais trabalhando de forma inteligente. Acesse múltiplas oportunidades e maximize seus rendimentos mensais.",
+    title: "Pagamento rápido via PIX",
+    description: "Os pagamentos são feitos com base nos seus resultados em até 24 horas por meio de transferência PIX.",
     color: "text-green-500",
   },
   {
     icon: Shield,
     title: "Segurança e Confiança",
-    description: "Plataforma segura com pagamentos garantidos. Todas as empresas são verificadas para sua proteção e tranquilidade.",
+    description: "Seu pagamento é garantido e todas as empresas são verificadas. Foque no seu trabalho, que da segurança a gente cuida.",
     color: "text-purple-500",
   },
   {
@@ -34,10 +34,10 @@ export const VantagensSection = () => {
       <div className="container mx-auto px-4">
         <div className="text-center mb-16 animate-fade-in">
           <span className="px-4 py-2 bg-primary/10 text-primary rounded-full text-sm font-semibold">
-            Por Que Escolher TopDoer
+            Por Que Ser um TopDoer
           </span>
           <h2 className="text-3xl md:text-4xl lg:text-5xl font-bold mt-6 mb-4">
-            Vantagens Exclusivas
+            Por que ser um TopDoer?
           </h2>
           <p className="text-lg text-muted-foreground max-w-2xl mx-auto">
             Descubra todos os benefícios de fazer parte da maior plataforma de prestadores de serviço

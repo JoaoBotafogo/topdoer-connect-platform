@@ -31,10 +31,10 @@ export const DepoimentosSection = () => {
             Depoimentos
           </span>
           <h2 className="text-3xl md:text-4xl lg:text-5xl font-bold mt-6 mb-4">
-            O Que Nossos Prestadores Dizem
+            O Que Nossos Prestadores Dizem?
           </h2>
           <p className="text-lg text-muted-foreground max-w-2xl mx-auto">
-            Confira a experiência de quem já está transformando sua carreira com a TopDoer
+            Confira a experiência de quem já está transformando sua carreira com a TopDoer. Profissionais como você que estão faturando mais com liberdade e segurança.
           </p>
         </div>
 

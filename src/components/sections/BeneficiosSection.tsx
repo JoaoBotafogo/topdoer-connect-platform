@@ -3,29 +3,34 @@ import { Card } from "@/components/ui/card";
 
 const benefits = [
   {
-    icon: Zap,
-    title: "Contratação Rápida",
-    description: "Encontre e contrate profissionais qualificados em questão de horas, não dias.",
+    icon: Users,
+    title: "Equipe sob Demanda",
+    description: "Você define a necessidade: quando, qual a função e quantos profissionais. Nós fornecemos uma equipe flexível para cobrir suas operações diárias. Ideal para picos sazonais e demandas inesperadas.",
   },
   {
-    icon: Users,
-    title: "Talentos Verificados",
-    description: "Todos os prestadores passam por rigorosa verificação de identidade e habilidades.",
+    icon: Zap,
+    title: "Contratação Rápida",
+    description: "Não deixe seus projetos parados por falta de equipe. Encontre e contrate o profissional ideal em tempo recorde, sem inúmeras burocracias e acelere sua operação.",
+  },
+  {
+    icon: Shield,
+    title: "Contrate com Total Confiança",
+    description: "Chega de incertezas. Nossa equipe valida a identidade, as habilidades e o histórico de cada profissional. Você contrata sabendo que está trazendo os melhores para o seu time.",
   },
   {
     icon: Award,
     title: "Qualidade Garantida",
-    description: "Sistema de avaliações e garantia de qualidade em todos os serviços prestados.",
+    description: "Acompanhe as avaliações de outros clientes e conte com a nossa garantia de qualidade. Seus projetos serão entregues com a excelência que sua marca exige.",
   },
   {
     icon: BarChart,
     title: "Redução de Custos",
-    description: "Economize até 40% em custos operacionais com nossa solução inteligente.",
+    description: "Economize até 35% em custos operacionais com nossa solução inteligente.",
   },
   {
     icon: Shield,
     title: "Segurança Total",
-    description: "Contratos digitais, pagamentos seguros e proteção jurídica completa.",
+    description: "Deixe a papelada com a gente. Gerenciamos os contratos, garantimos os pagamentos e protegemos sua segurança jurídica. Mais proteção para sua empresa, menos dor de cabeça para você.",
   },
   {
     icon: Clock,
@@ -43,7 +48,7 @@ export const BeneficiosSection = () => {
             Benefícios para Empresas
           </span>
           <h2 className="text-3xl md:text-4xl lg:text-5xl font-bold mt-6 mb-4">
-            Por Que Empresas Escolhem TopDoer
+            Por Que Empresas Escolhem TopDoer?
           </h2>
           <p className="text-lg text-muted-foreground max-w-2xl mx-auto">
             Otimize sua operação com a plataforma mais completa de contratação de prestadores

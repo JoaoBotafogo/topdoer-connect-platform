@@ -50,11 +50,10 @@ export const DemoSection = () => {
         <div className="max-w-3xl mx-auto">
           <div className="text-center mb-12 animate-fade-in">
             <h2 className="text-3xl md:text-4xl lg:text-5xl font-bold mb-4">
-              Solicite uma Demonstração
+              Solicite mais informações
             </h2>
             <p className="text-lg text-muted-foreground">
-              Veja como nossa plataforma pode transformar o seu negócio. 
-              Deixe seus contatos e nossa equipe entrará em contato para uma chamada de apresentação.
+              Preencha seus dados e um de nossos especialistas irá preparar uma análise de como a TopDoer pode reduzir seus custos e agilizar sua contratação.
             </p>
           </div>
 
@@ -129,7 +128,7 @@ export const DemoSection = () => {
                 size="lg"
                 className="w-full text-lg font-semibold h-14"
               >
-                Agendar Demo
+                Otimize minha operação
               </Button>
 
               <p className="text-xs text-center text-muted-foreground">

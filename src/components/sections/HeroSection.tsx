@@ -23,24 +23,22 @@ export const HeroSection = () => {
             </div>
             
             <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold leading-tight">
-              Transforme seu talento em{" "}
               <span className="bg-gradient-hero bg-clip-text text-transparent">
-                oportunidades reais
+                Oportunidades reais,
               </span>
+              {" "}com a segurança que você precisa.
             </h1>
             
             <p className="text-lg md:text-xl text-muted-foreground max-w-2xl">
-              Conecte-se com empresas que precisam dos seus serviços. 
-              Trabalhe com flexibilidade, autonomia e ganhe mais.
+              Nós te conectamos com grandes empresas, para que você trabalhe com flexibilidade, segurança e tenha a garantia de receber em dia.
             </p>
             
             <div className="flex flex-col sm:flex-row gap-4">
               <Button 
                 size="lg" 
                 className="text-lg font-semibold group"
-                onClick={scrollToCadastro}
               >
-                Começar Agora
+                Encontrar Oportunidades
                 <ArrowRight className="ml-2 group-hover:translate-x-1 transition-transform" />
               </Button>
               <Button 
@@ -56,18 +54,21 @@ export const HeroSection = () => {
             {/* Stats */}
             <div className="grid grid-cols-3 gap-6 pt-8">
               <div>
-                <div className="text-3xl font-bold text-primary">5.000+</div>
-                <div className="text-sm text-muted-foreground">Prestadores</div>
+                <div className="text-3xl font-bold text-primary">+100.000</div>
+                <div className="text-sm text-muted-foreground">Tarefas concluídas</div>
               </div>
               <div>
-                <div className="text-3xl font-bold text-primary">1.200+</div>
-                <div className="text-sm text-muted-foreground">Empresas</div>
+                <div className="text-3xl font-bold text-primary">24h</div>
+                <div className="text-sm text-muted-foreground">Pagamentos em até</div>
               </div>
               <div>
-                <div className="text-3xl font-bold text-primary">4.9★</div>
-                <div className="text-sm text-muted-foreground">Avaliação</div>
+                <div className="text-3xl font-bold text-primary">R$ 500</div>
+                <div className="text-sm text-muted-foreground">Ganhos por turno*</div>
               </div>
             </div>
+            <p className="text-xs text-muted-foreground pt-2">
+              *dependendo da função e da sua performance. Algumas funções não possuem teto de ganhos.
+            </p>
           </div>
 
           {/* Image */}

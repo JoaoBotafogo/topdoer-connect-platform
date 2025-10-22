@@ -23,16 +23,14 @@ export const EmpresasHeroSection = () => {
             </div>
             
             <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold leading-tight">
-              Encontre os melhores{" "}
               <span className="bg-gradient-accent bg-clip-text text-transparent">
-                profissionais
+                Sua equipe sob demanda,
               </span>
-              {" "}para sua empresa
+              {" "}25% mais eficiente.
             </h1>
             
             <p className="text-lg md:text-xl text-muted-foreground max-w-2xl">
-              Conecte-se com prestadores de serviço qualificados e verificados. 
-              Contrate com agilidade, segurança e eficiência.
+              Contrate profissionais verificados e reduza custos operacionais sem a burocracia contratual. Mais agilidade e segurança para sua marca.
             </p>
             
             <div className="flex flex-col sm:flex-row gap-4">
@@ -41,7 +39,7 @@ export const EmpresasHeroSection = () => {
                 className="text-lg font-semibold group"
                 onClick={scrollToDemo}
               >
-                Solicitar Demonstração
+                Otimizar minha operação
                 <ArrowRight className="ml-2 group-hover:translate-x-1 transition-transform" />
               </Button>
               <Button 
@@ -58,15 +56,15 @@ export const EmpresasHeroSection = () => {
             <div className="grid grid-cols-3 gap-6 pt-8">
               <div>
                 <div className="text-3xl font-bold text-secondary">98%</div>
-                <div className="text-sm text-muted-foreground">Satisfação</div>
+                <div className="text-sm text-muted-foreground">de satisfação</div>
               </div>
               <div>
-                <div className="text-3xl font-bold text-secondary">-40%</div>
-                <div className="text-sm text-muted-foreground">Custos</div>
+                <div className="text-3xl font-bold text-secondary">-25%</div>
+                <div className="text-sm text-muted-foreground">de custos</div>
               </div>
               <div>
                 <div className="text-3xl font-bold text-secondary">24h</div>
-                <div className="text-sm text-muted-foreground">Resposta</div>
+                <div className="text-sm text-muted-foreground">de respostas</div>
               </div>
             </div>
           </div>
