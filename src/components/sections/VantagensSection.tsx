@@ -1,4 +1,4 @@
-import { Clock, TrendingUp, Shield, Heart } from "lucide-react";
+import { Clock, Shield, Heart } from "lucide-react";
 import { Card } from "@/components/ui/card";
 
 const advantages = [
@@ -9,7 +9,7 @@ const advantages = [
     color: "text-blue-500",
   },
   {
-    icon: TrendingUp,
+    icon: Clock,
     title: "Pagamento rápido via PIX",
     description: "Os pagamentos são feitos com base nos seus resultados em até 24 horas por meio de transferência PIX.",
     color: "text-green-500",
