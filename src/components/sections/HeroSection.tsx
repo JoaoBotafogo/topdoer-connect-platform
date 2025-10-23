@@ -34,10 +34,12 @@ export const HeroSection = () => {
               <Button 
                 size="lg" 
                 className="text-lg font-semibold group"
-                onClick={() => window.open('https://wa.me/5511943667777?text=Para%20come%C3%A7ar%2C%20envie%20qualquer%20mensagem%20%5BSite%5D', '_blank')}
+                asChild
               >
-                Encontrar Oportunidades
-                <ArrowRight className="ml-2 group-hover:translate-x-1 transition-transform" />
+                <a href="https://wa.me/5511943667777?text=Para%20come%C3%A7ar%2C%20envie%20qualquer%20mensagem%20%5BSite%5D" target="_blank" rel="noopener noreferrer">
+                  Encontrar Oportunidades
+                  <ArrowRight className="ml-2 group-hover:translate-x-1 transition-transform" />
+                </a>
               </Button>
               <Button 
                 size="lg" 

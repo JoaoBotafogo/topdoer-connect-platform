@@ -3,10 +3,6 @@ import { ArrowRight } from "lucide-react";
 import businessManagerHero from "@/assets/business-manager-hero.jpg";
 
 export const EmpresasHeroSection = () => {
-  const scrollToDemo = () => {
-    document.getElementById("demo")?.scrollIntoView({ behavior: "smooth" });
-  };
-
   return (
     <section id="empresas-hero" className="relative min-h-screen flex items-center pt-16 overflow-hidden">
       {/* Gradient Background */}
@@ -37,10 +33,12 @@ export const EmpresasHeroSection = () => {
               <Button 
                 size="lg" 
                 className="text-lg font-semibold group"
-                onClick={scrollToDemo}
+                asChild
               >
-                Otimizar minha operação
-                <ArrowRight className="ml-2 group-hover:translate-x-1 transition-transform" />
+                <a href="https://wa.me/5511943667777?text=Para%20come%C3%A7ar%2C%20envie%20qualquer%20mensagem%20%5BSite%5D" target="_blank" rel="noopener noreferrer">
+                  Otimizar minha operação
+                  <ArrowRight className="ml-2 group-hover:translate-x-1 transition-transform" />
+                </a>
               </Button>
               <Button 
                 size="lg" 
