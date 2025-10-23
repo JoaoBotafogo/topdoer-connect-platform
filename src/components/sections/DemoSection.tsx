@@ -27,12 +27,12 @@ export const DemoSection = () => {
       return;
     }
 
-    // TODO: Implementar lógica de envio
-    console.log("Formulário enviado:", formData);
+    // Abrir WhatsApp
+    window.open('https://wa.me/5511943667777?text=Para%20come%C3%A7ar%2C%20envie%20qualquer%20mensagem%20%5BSite%5D', '_blank');
     
     toast({
-      title: "Solicitação enviada!",
-      description: "Nossa equipe entrará em contato em breve.",
+      title: "Redirecionando para WhatsApp!",
+      description: "Você será redirecionado para conversar conosco.",
     });
 
     // Limpar formulário
