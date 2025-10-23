@@ -1,5 +1,7 @@
-import { Zap, Users, Award, BarChart, Shield, Clock } from "lucide-react";
+import { Zap, Users, Award, BarChart, Shield } from "lucide-react";
 import { Card } from "@/components/ui/card";
+import teamCollaboration from "@/assets/team-collaboration.jpg";
+import businessPartnership from "@/assets/business-partnership.jpg";
 
 const benefits = [
   {
@@ -32,11 +34,6 @@ const benefits = [
     title: "Segurança Total",
     description: "Deixe a papelada com a gente. Gerenciamos os contratos, garantimos os pagamentos e protegemos sua segurança jurídica. Mais proteção para sua empresa, menos dor de cabeça para você.",
   },
-  {
-    icon: Clock,
-    title: "Suporte 24/7",
-    description: "Equipe dedicada disponível para ajudar sua empresa a qualquer momento.",
-  },
 ];
 
 export const BeneficiosSection = () => {
@@ -55,7 +52,7 @@ export const BeneficiosSection = () => {
           </p>
         </div>
 
-        <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8 max-w-6xl mx-auto">
+        <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8 max-w-6xl mx-auto mb-16">
           {benefits.map((benefit, index) => (
             <Card
               key={index}
@@ -71,6 +68,26 @@ export const BeneficiosSection = () => {
               <p className="text-muted-foreground">{benefit.description}</p>
             </Card>
           ))}
+        </div>
+
+        {/* Visual Examples */}
+        <div className="grid md:grid-cols-2 gap-8 max-w-5xl mx-auto mt-16">
+          <div className="relative group overflow-hidden rounded-3xl shadow-elevated">
+            <img
+              src={teamCollaboration}
+              alt="Equipe de limpeza profissional colaborando"
+              className="w-full h-auto transition-transform duration-300 group-hover:scale-105"
+            />
+            <div className="absolute inset-0 bg-gradient-accent opacity-0 group-hover:opacity-10 transition-opacity duration-300" />
+          </div>
+          <div className="relative group overflow-hidden rounded-3xl shadow-elevated">
+            <img
+              src={businessPartnership}
+              alt="Parceria empresarial com profissionais"
+              className="w-full h-auto transition-transform duration-300 group-hover:scale-105"
+            />
+            <div className="absolute inset-0 bg-gradient-accent opacity-0 group-hover:opacity-10 transition-opacity duration-300" />
+          </div>
         </div>
       </div>
     </section>

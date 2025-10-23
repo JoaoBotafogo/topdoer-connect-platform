@@ -1,6 +1,6 @@
 import { Button } from "@/components/ui/button";
 import { ArrowRight } from "lucide-react";
-import businessTeam from "@/assets/business-team.jpg";
+import businessManagerHero from "@/assets/business-manager-hero.jpg";
 
 export const EmpresasHeroSection = () => {
   const scrollToDemo = () => {
@@ -73,8 +73,8 @@ export const EmpresasHeroSection = () => {
           <div className="relative animate-fade-in">
             <div className="absolute inset-0 bg-gradient-accent rounded-3xl blur-3xl opacity-20" />
             <img
-              src={businessTeam}
-              alt="Equipe de negócios profissional"
+              src={businessManagerHero}
+              alt="Gerente contratando serviços de limpeza"
               className="relative rounded-3xl shadow-elevated w-full h-auto"
             />
           </div>

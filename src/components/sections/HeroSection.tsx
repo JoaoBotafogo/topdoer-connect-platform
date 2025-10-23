@@ -1,6 +1,6 @@
 import { Button } from "@/components/ui/button";
 import { ArrowRight } from "lucide-react";
-import heroWorker from "@/assets/hero-worker.jpg";
+import cleaningTeamHero from "@/assets/cleaning-team-hero.jpg";
 
 export const HeroSection = () => {
   const scrollToCadastro = () => {
@@ -75,8 +75,8 @@ export const HeroSection = () => {
           <div className="relative animate-fade-in">
             <div className="absolute inset-0 bg-gradient-hero rounded-3xl blur-3xl opacity-20" />
             <img
-              src={heroWorker}
-              alt="Prestador de serviço profissional"
+              src={cleaningTeamHero}
+              alt="Equipe de profissionais de limpeza"
               className="relative rounded-3xl shadow-elevated w-full h-auto"
             />
           </div>

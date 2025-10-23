@@ -1,5 +1,7 @@
 import { UserPlus, Search, Briefcase, DollarSign } from "lucide-react";
 import { Card } from "@/components/ui/card";
+import workerSmartphone from "@/assets/worker-smartphone.jpg";
+import paymentCelebration from "@/assets/payment-celebration.jpg";
 
 const steps = [
   {
@@ -40,7 +42,7 @@ export const ComoFuncionaSection = () => {
           </p>
         </div>
 
-        <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-8">
+        <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-8 mb-16">
           {steps.map((step, index) => (
             <Card
               key={index}
@@ -56,6 +58,26 @@ export const ComoFuncionaSection = () => {
               <p className="text-muted-foreground">{step.description}</p>
             </Card>
           ))}
+        </div>
+
+        {/* Visual Examples */}
+        <div className="grid md:grid-cols-2 gap-8 max-w-4xl mx-auto mt-16">
+          <div className="relative group overflow-hidden rounded-3xl shadow-elevated">
+            <img
+              src={workerSmartphone}
+              alt="Profissional usando smartphone para encontrar oportunidades"
+              className="w-full h-auto transition-transform duration-300 group-hover:scale-105"
+            />
+            <div className="absolute inset-0 bg-gradient-hero opacity-0 group-hover:opacity-10 transition-opacity duration-300" />
+          </div>
+          <div className="relative group overflow-hidden rounded-3xl shadow-elevated">
+            <img
+              src={paymentCelebration}
+              alt="Profissional recebendo pagamento via PIX"
+              className="w-full h-auto transition-transform duration-300 group-hover:scale-105"
+            />
+            <div className="absolute inset-0 bg-gradient-hero opacity-0 group-hover:opacity-10 transition-opacity duration-300" />
+          </div>
         </div>
       </div>
     </section>
