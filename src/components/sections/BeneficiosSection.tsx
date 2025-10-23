@@ -27,7 +27,7 @@ const benefits = [
   {
     icon: BarChart,
     title: "Redução de Custos",
-    description: "Economize até 35% em custos operacionais com nossa solução inteligente.",
+    description: "Economize em torno de 25% em custos operacionais com nossa solução inteligente.",
   },
   {
     icon: Shield,
