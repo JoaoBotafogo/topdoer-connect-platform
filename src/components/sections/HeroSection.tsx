@@ -22,11 +22,8 @@ export const HeroSection = () => {
               </span>
             </div>
             
-            <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold leading-tight">
-              <span className="bg-gradient-hero bg-clip-text text-transparent">
-                Oportunidades reais,
-              </span>
-              {" "}com a segurança que você precisa.
+            <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold leading-tight bg-gradient-hero bg-clip-text text-transparent">
+              Oportunidades reais, com a segurança que você precisa.
             </h1>
             
             <p className="text-lg md:text-xl text-muted-foreground max-w-2xl">
