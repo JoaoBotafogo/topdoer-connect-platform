@@ -31,16 +31,20 @@ export const HeroSection = () => {
             </p>
             
             <div className="flex flex-col sm:flex-row gap-4">
-              <Button 
-                size="lg" 
-                className="text-lg font-semibold group"
-                asChild
+              <a 
+                href="https://wa.me/5511943667777?text=Para%20come%C3%A7ar%2C%20envie%20qualquer%20mensagem%20%5BSite%5D" 
+                target="_blank" 
+                rel="noopener noreferrer"
+                className="inline-block"
               >
-                <a href="https://wa.me/5511943667777?text=Para%20come%C3%A7ar%2C%20envie%20qualquer%20mensagem%20%5BSite%5D" target="_blank" rel="noopener noreferrer">
+                <Button 
+                  size="lg" 
+                  className="text-lg font-semibold group w-full"
+                >
                   Encontrar Oportunidades
                   <ArrowRight className="ml-2 group-hover:translate-x-1 transition-transform" />
-                </a>
-              </Button>
+                </Button>
+              </a>
               <Button 
                 size="lg" 
                 variant="outline" 
