@@ -6,7 +6,7 @@ export const EmpresasHeroSection = () => {
   return (
     <section id="empresas-hero" className="relative min-h-screen flex items-center pt-16 overflow-hidden">
       {/* Gradient Background */}
-      <div className="absolute inset-0 bg-gradient-accent opacity-10" />
+      <div className="absolute inset-0 bg-gradient-accent opacity-10 pointer-events-none" />
       
       <div className="container mx-auto px-4 py-20">
         <div className="grid lg:grid-cols-2 gap-12 items-center">
