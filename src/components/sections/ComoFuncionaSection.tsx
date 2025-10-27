@@ -1,13 +1,26 @@
 import { UserPlus, Search, Briefcase, DollarSign } from "lucide-react";
 import { Card } from "@/components/ui/card";
-import workerSmartphone from "@/assets/worker-smartphone.jpg";
-import paymentCelebration from "@/assets/payment-celebration.jpg";
+import workerSmartphoneWithLogo from "@/assets/worker-smartphone-with-logo.jpg";
+import paymentSuccess from "@/assets/payment-success.jpg";
 
 const steps = [
   {
     icon: UserPlus,
     title: "1. Crie seu Perfil",
-    description: "É grátis e leva só 5 minutos. Conte pra gente no que você é bom para encontrarmos os melhores trabalhos para você.",
+    description: (
+      <>
+        Cadastre-se entrando em contato pelo WhatsApp{" "}
+        <a 
+          href="https://wa.me/5511943667777?text=Para%20come%C3%A7ar%2C%20envie%20qualquer%20mensagem%20%5BSite%5D" 
+          target="_blank" 
+          rel="noopener noreferrer"
+          className="text-primary hover:underline font-semibold"
+        >
+          +55 11 94366-7777
+        </a>
+        . Nossa equipe de suporte responde suas dúvidas e orienta nos próximos passos.
+      </>
+    ),
   },
   {
     icon: Search,
@@ -55,7 +68,7 @@ export const ComoFuncionaSection = () => {
                 </div>
               </div>
               <h3 className="text-xl font-bold mb-3">{step.title}</h3>
-              <p className="text-muted-foreground">{step.description}</p>
+              <div className="text-muted-foreground">{step.description}</div>
             </Card>
           ))}
         </div>
@@ -64,15 +77,15 @@ export const ComoFuncionaSection = () => {
         <div className="grid md:grid-cols-2 gap-8 max-w-4xl mx-auto mt-16">
           <div className="relative group overflow-hidden rounded-3xl shadow-elevated">
             <img
-              src={workerSmartphone}
-              alt="Profissional usando smartphone para encontrar oportunidades"
+              src={workerSmartphoneWithLogo}
+              alt="Profissional usando smartphone com app TopDoer"
               className="w-full h-auto transition-transform duration-300 group-hover:scale-105"
             />
             <div className="absolute inset-0 bg-gradient-hero opacity-0 group-hover:opacity-10 transition-opacity duration-300" />
           </div>
           <div className="relative group overflow-hidden rounded-3xl shadow-elevated">
             <img
-              src={paymentCelebration}
+              src={paymentSuccess}
               alt="Profissional recebendo pagamento via PIX"
               className="w-full h-auto transition-transform duration-300 group-hover:scale-105"
             />
