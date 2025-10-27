@@ -73,20 +73,12 @@ export const ComoFuncionaSection = () => {
           ))}
         </div>
 
-        {/* Visual Examples */}
-        <div className="grid md:grid-cols-2 gap-8 max-w-4xl mx-auto mt-16">
+        {/* Visual Example */}
+        <div className="max-w-2xl mx-auto mt-16">
           <div className="relative group overflow-hidden rounded-3xl shadow-elevated">
             <img
               src={workerSmartphoneWithLogo}
               alt="Profissional usando smartphone com app TopDoer"
-              className="w-full h-auto transition-transform duration-300 group-hover:scale-105"
-            />
-            <div className="absolute inset-0 bg-gradient-hero opacity-0 group-hover:opacity-10 transition-opacity duration-300" />
-          </div>
-          <div className="relative group overflow-hidden rounded-3xl shadow-elevated">
-            <img
-              src={paymentSuccess}
-              alt="Profissional recebendo pagamento via PIX"
               className="w-full h-auto transition-transform duration-300 group-hover:scale-105"
             />
             <div className="absolute inset-0 bg-gradient-hero opacity-0 group-hover:opacity-10 transition-opacity duration-300" />
