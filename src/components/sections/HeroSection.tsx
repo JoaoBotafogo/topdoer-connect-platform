@@ -50,7 +50,7 @@ export const HeroSection = () => {
             </div>
 
             {/* Stats */}
-            <div className="grid grid-cols-3 gap-6 pt-8">
+            <div className="grid grid-cols-1 sm:grid-cols-3 gap-6 pt-8">
               <div>
                 <div className="text-3xl font-bold text-primary">+100.000</div>
                 <div className="text-sm text-muted-foreground">Tarefas concluídas</div>
