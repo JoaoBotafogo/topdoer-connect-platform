@@ -24,8 +24,8 @@ const Index = () => {
       {activeSection === "prestadores" ? (
         <>
           <HeroSection />
-          <ComoFuncionaSection />
           <VantagensSection />
+          <ComoFuncionaSection />
           <DepoimentosSection />
         </>
       ) : (

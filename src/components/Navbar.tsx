@@ -21,8 +21,8 @@ export const Navbar = ({ activeSection, onSectionChange }: NavbarProps) => {
 
   const prestadoresLinks = [
     { label: "Início", id: "hero" },
-    { label: "Como Funciona", id: "como-funciona" },
     { label: "Vantagens", id: "vantagens" },
+    { label: "Como Funciona", id: "como-funciona" },
     { label: "Depoimentos", id: "depoimentos" },
   ];
 
